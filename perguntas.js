@@ -105,3 +105,12 @@ criaCartao(
     'O que é uma função?',
     'Uma função é um bloco de código que executa alguma tarefa'
 )
+<script src=""></script>
+<script src="perguntas.js"></script>
+<script src="app.js"></script>
+<script src="perguntas.js"></script>
+criaCartao(categoria, pergunta, resposta) {}
+function criaCartao(categoria, pergunta, resposta) {}
+function criaCartao(categoria, pergunta, resposta) {
+    console.log(categoria, pergunta, resposta)
+}
